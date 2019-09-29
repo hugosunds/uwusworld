@@ -1,0 +1,127 @@
+body {
+	background-image:url("bakgrund.jpg");
+	background-color: lavender;
+	repeat: y-repeat
+}
+#header{
+	background-image:url("header.jpg");
+	repeat: no-repeat
+	background-color: aeada9;
+	width: 800px;
+	height: 275px;
+	position: absolute;
+}
+#header ul{
+	display: inline;
+	list-style-type: none;
+}
+#header li{
+	height: 25px;
+	float: left;
+	margin-right: 99px;
+	text-align: center;
+}
+#header a:link{
+	background-color: white;
+	color: blue;
+	text-decoration: none;
+	width: 98px;
+	height: 25px;
+	font-size: 20px;
+	margin-left: 350px;
+	position: absolute;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+#header a:visited{
+	background-color: white;
+	color: blue;
+	text-decoration: none;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+#header a:hover{
+	background-color: blue;
+	color: black;
+	text-decoration: underline;
+}
+#main{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+}
+#menuBar{
+	background-color: #aeada9;
+	width: 800px;
+	height: 25px;
+	position: absolute;
+	margin-top: 295px;
+}
+#menuBar ul{
+	display: inline;
+	list-style-type: none;
+}
+#menuBar li{
+	height: 25px;
+	float: left;
+	margin-right: 99px;
+	text-align: center;
+}
+#menuBar a:link{
+	background-color: white;
+	color: blue;
+	text-decoration: none;
+	width: 98px;
+	height: 25px;
+	font-size: 20px;
+	margin-left: 100px;
+	position: absolute;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+#menuBar a:visited{
+	background-color: white;
+	color: blue;
+	text-decoration: none;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+#menuBar a:hover{
+	background-color: blue;
+	color: black;
+	text-decoration: underline;
+}
+#mainBox{
+	color: black;
+	word-wrap: break-word;
+	padding: 10;
+	position: absolute;
+	margin-top:325px;
+	width: 780px;
+	height: 545px;
+	
+}
+
+h2{
+	margin: auto;
+}
+.text{
+	text-indent: 30px;
+	
+}
+#ruta{
+	background-color: black;
+	color: white;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	padding: 10;
+	margin-left: 220px;
+	margin-top: 200px;
+}
+
+.en_sak{
+	color: white;
+}
